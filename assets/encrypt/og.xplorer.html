@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HTML Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Semua bagian-bagian yang diperlukan untuk proyek Multimediaa">
+    <meta name="keywords" content="ui/ux, backend, assets, component, animation, workspace, multimedia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia | File Xplorer</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://multimediaa.github.io/img/favicon/apple-touch.PNG">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://multimediaa.github.io/img/favicon/favicon-32.PNG">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://multimediaa.github.io/img/favicon/favicon-16.PNG">
+    <link rel="shortcut icon" type="image/x-icon" href="https://multimediaa.github.io/img/favicon/favicon.ICO">
+    <link rel="manifest" href="https://multimediaa.github.io/img/favicon/site.webmanifest">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Open+Sans:300,400,600,700,800|Source+Sans+Pro:200,300,400,600,700,900" type="text/css">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css" type="text/css">
+    <link rel="stylesheet" href="https://multimediaa.github.io/css/loading.min.css" type="text/css">
+    <link rel="stylesheet" href="https://multimediaa.github.io/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/file.xplorer.css" type="text/css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loading">
+        <div id="loading-center"></div>
+    </div>
+
+    <div class="cm-address-bar-search" clear>
+        <div class="address-search">
+            <div class="pos"><input type="text" class="address-search-input"><div class="cm-button address-button"><i class="fas fa-arrow-right"></i></div><div class="address-short-btn"></div></div>
+        </div>
+        <div class="search-file-and-folder">
+            <div class="pos"><input placeholder="Search.." type="text" class="files-search-input"><div class="cm-button file-search-button"><i class="fas fa-search"></i></div></div>
+        </div>
+    </div>
+    <div class="theme-structure big-file-manager">
+        <ul>
+            <li class="file-sub-active show-up"><b>Github</b></li>
+            <li data-file-icon="folder"><b>Example</b>
+                <ul>
+                    <li data-file-icon="folder"><b>Contents</b>
+                        <ul>
+                            <li data-file-icon="folder"><b>Images</b>
+                                <ul>
+                                    <li data-file-id="sdfsdfsdf454" data-file-icon="image"><b>logo.png</b></li>
+                                    <li data-file-id="sdf4334545" data-file-icon="image"><b>profile.jpg</b></li>
+                                    <li data-file-id="sdfs4355" data-file-icon="image"><b>timer.gif</b></li>
+                                </ul>
+                            </li>
+                            <li data-file-icon="folder"><b>Video</b>
+                                <ul>
+                                    <li data-file-id="sdfsdfsdfsdf45456sd" data-file-icon="video"><b>Fleet-of-Time_720p.mp4</b></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-file-icon="folder"><b>Fonts</b>
+                        <ul>
+                            <li data-file-icon="folder"><b>Cabrion</b></li>
+                            <li data-file-icon="folder"><b>Rajdhani</b></li>
+                            <li data-file-id="mm275" data-file-icon="font"><b>consola.ttf</b></li>
+                        </ul>
+                    </li>
+                    <li data-file-icon="folder"><b>Pages</b>
+                        <ul>
+                            <li data-file-id="mm55" data-file-icon="html"><b>index.html</b></li>
+                            <li data-file-id="mm77" data-file-icon="css"><b>style.css</b></li>
+                            <li data-file-id="mm66" data-file-icon="php"><b>config.php</b></li>
+                            <li data-file-id="mm88" data-file-icon="js"><b>main.js</b></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+            <li data-file-icon="folder"><b>assets</b>
+                <ul>
+                    <li data-file-icon="folder"><b>css</b>
+                        <ul>
+                            <li data-file-id="mm234" data-file-icon="css"><b>file.xplorer.css</b></li>
+                        </ul>
+                    </li>
+                    <li data-file-icon="folder"><b>js</b>
+                        <ul>
+                            <li data-file-id="mm490" data-file-icon="js"><b>file.xplorer.js</b></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li data-file-icon="folder"><b>loading</b>
+                <ul>
+                    <li data-file-id="5" data-file-icon="html"><b>load-1.html</b></li>
+                    <li data-file-id="5" data-file-icon="html"><b>load-2.html</b></li>
+                </ul>
+            </li>
+            <li data-file-icon="html"><b>index.html</b></li>
+            <li data-file-icon="html"><b>tree.html</b></li>
+        </ul>
+    </div>
+    <!-- Js Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://multimediaa.github.io/js/jquery-3.3.1.min.js"></script>
+    <script src="https://multimediaa.github.io/js/main.js"></script>
+    <script src="./assets/js/file.xplorer.js"></script>
+</body>
+</html>
