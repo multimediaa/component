@@ -45,12 +45,11 @@ a:hover, a:focus {color: #0a00b6;outline: 0;text-decoration: none !important;}
 .brand h1 {
     font-family            : "Inter", sans-serif;
     text-transform         : uppercase;
-    font-size              : 3.8em;
+    font-size              : 2.8em;
     font-weight            : 700;
     letter-spacing         : 2.5px;
     font-style             : normal;
     margin-bottom          : 16px;
-    -webkit-font-smoothing : antialiased;
 }
 .brand h6 {
     text-transform : capitalize;
